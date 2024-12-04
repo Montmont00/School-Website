@@ -1,0 +1,138 @@
+/*-- Global Variables --*/
+
+body {
+   padding: 0;
+   margin: 0;
+   background: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    padding: 60px 0;
+    background: #F0EDED;
+}
+
+.container {
+    width: 1080px;
+    height: 300px;
+    margin: 0 auto; 
+}
+.wrapper {
+    width: 300px;
+    height: 300px;
+    background: lightblue;
+}
+
+
+
+
+/*-- FOR ACADEMIC PROGRAMS SECTION --*/
+
+.container.academic-card-container {
+    display: flex;
+    gap: 30px;
+    height: auto;
+}
+
+.wrapper.academic-card {
+    width: 340px;
+    height: auto;
+    background: transparent;
+    /* display: inline-block;
+    margin-right: 30px; */
+}
+
+.wrapper.academic-card:not(:first-child){
+    padding: 24px; 
+    border: 1px solid black;
+    border-radius: 24px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+}
+
+.wrapper.academic-card h2 {
+    font-size: 48px;
+    line-height: 1;
+    margin: 0;
+}
+
+.wrapper.academic-card p {
+    line-height: 1.2;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.wrapper.academic-card a {
+    padding: 10px 24px;
+    border-radius: 24px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+
+
+.wrapper.academic-card:not(:first-child) .academic-tag{
+    font-size: 14px;
+    padding: 5px 16px;
+    background: black;
+    border-radius: 24px;
+    color: white;
+    display: inline-block;
+}
+
+.wrapper.academic-card:not(:first-child) h4 {
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.wrapper.academic-card:not(:first-child) span {
+    font-size: 14px;
+    line-height: 1;
+}
+
+
+/*-- Targeted ---*/
+
+div.test-box:first-child {
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: red;
+    margin: 40px 20px 10px 0px;
+}
+
+div.test-box:nth-child(2) {
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: green;
+    margin: 40px 20px 10px 0px;
+}
+
+div.test-box:nth-child(3) {
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: blue;
+    margin: 40px 20px 10px 0px;
+}
+
+
+div.inner-test-box{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+}
+
+
